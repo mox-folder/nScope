@@ -69,5 +69,6 @@ if __name__ == "__main__":
 
 	if len(exhausted_urls) > 0:
 		for url in exhausted_urls:
-			test = url.string_rep()
-			print(test)
+			print(url.string_rep())
+
+	sys.exit(0)
