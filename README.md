@@ -46,6 +46,7 @@ tesla.com
 ```
 ![nScope example use](https://github.com/mox-folder/nScope/blob/main/nscopeExample.png)
 
-## ToDo
+## To-Do
 - User input sanitization 
 - Add support for different output formats (json,xml,etc)
+- Consolidate functions: output_matches, output_exhausted_urls (these can be 1 function with a switch to determine filename and display text)
