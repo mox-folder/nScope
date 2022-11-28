@@ -5,7 +5,6 @@ import os
 class logger:
 	def __init__(self):
 		self.file_path = None
-		self.log_initialized = False #TODO:!! Review if this actually ever gets used or if it can be removed
 		self.logged_messages = ""
 
 	def initialize_logfile(self, start_time, directory):
@@ -14,8 +13,6 @@ class logger:
 		if not os.path.exists(self.file_path):
 			with open(self.file_path, 'w') as fp:
 				fp.close()
-
-		self.log_initialized = True
 
 	def log_message(self,message):
 		self.logged_messages += "\n%s" % (message)
