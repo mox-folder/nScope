@@ -9,6 +9,23 @@ Until I get around to implementing CLI arguments, you can just run `python3 nsco
 
 If you haven't made those files: the expected format is simply a text file with either one IP or one URL per line, no commas or extra characters.
 
+## Example
+Below is a screenshot of an example use-case of using nScope. 
+
+For the example, the content of in-scope-ips.txt is:
+```Text
+64.233.176.100
+8.8.8.8
+172.253.124.100  
+```
+
+For the example, the content of urls-to-check.txt is:
+```Text
+google.com
+tesla.com
+```
+![nScope example use](https://github.com/mox-folder/nScope/blob/main/nscopeExample.png)
+
 ## ToDo
 - Implement args parsing
 - Add flags n stuff?
