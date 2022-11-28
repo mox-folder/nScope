@@ -28,4 +28,4 @@ tesla.com
 
 ## ToDo
 - Implement args parsing
-- Add flags n stuff?
+- Add flags: verbose mode (reflect exhausted urls), IPs file, URLs file, output successful resolutions to file, output exhausted urls to file, output all results to flies
