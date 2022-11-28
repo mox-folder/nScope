@@ -1,8 +1,8 @@
 # nScope
-Stop manually checking your scope files
+Stop manually checking your scope files.
 
 ## About
-//todo
+Python script used to compare scoped IPs (pre-engagement) to IPs you come across during an engagement. Quickly verify whether or not an IP is in scope.
 
 ## Usage
 // todo
