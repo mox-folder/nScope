@@ -48,3 +48,4 @@ tesla.com
 
 ## ToDo
 - User input sanitization 
+- Add support for different output formats (json,xml,etc)
