@@ -113,6 +113,7 @@ def output_matches():
 		xprint("[*] Valid matches found; logging to file.")
 		filename = "%s/nscope_matched_urls.txt" % (directory)
 		with open(filename,'w') as file:
+			file.write("URL,IP,ResolveTime\n")
 			for url in resolved_urls_in_scope:
 				file.write(url.output_csv())
 			file.close()
@@ -124,6 +125,7 @@ def output_exhausted_urls():
 		xprint("[*] Exhausted URLs found; logging to file.")
 		filename = "%s/exhausted_urls.txt" % (directory)
 		with open(filename,'w') as file:
+			file.write("URL,IP,ResolveTime\n")
 			for url in exhausted_urls:
 				file.write(url.output_csv())
 			file.close()
