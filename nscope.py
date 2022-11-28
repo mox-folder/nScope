@@ -1,5 +1,5 @@
 # Imports
-import argparse, os, requests, socket, sys
+import argparse, os, socket, sys
 from datetime import datetime
 from helpers.nscope_logger import logger
 from helpers.resolved_url import resolved_url
