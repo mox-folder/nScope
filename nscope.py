@@ -153,7 +153,7 @@ if __name__ == "__main__":
 
 	# Set up working directory for output and/or logging
 	if args['l'] or args['o'] in ['all','matches','urls']:
-		directory = ("%s_nscope") % (start_time.isoformat(sep=" ", timespec="seconds").replace(' ','_'))
+		directory = ("%s_nscope") % (start_time.isoformat(sep="_", timespec="seconds")
 		if not os.path.exists(directory):
 			os.makedirs(directory)
 
